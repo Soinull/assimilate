@@ -1,5 +1,7 @@
 module HTTP;
 
+#Modified from https://github.com/ClickSecurity/data_hacking/blob/master/browser_fingerprinting/bro_scripts/http-headers.bro
+
 export {
     type header_info_record: record
     {
