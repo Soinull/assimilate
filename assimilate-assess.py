@@ -1,7 +1,7 @@
 # 
 # Assimilate-Assess.py
 # Copyright 2017 Tim Crothers
-# Credit for the excellent Brologreader code is to Mike Sconzo - https://github.com/ClickSecurity/data_hacking/blob/master/browser_fingerprinting/bro_log_reader.py
+# Credit for the excellent BroLogReader code is to Mike Sconzo - https://github.com/ClickSecurity/data_hacking/blob/master/browser_fingerprinting/bro_log_reader.py
 #
 
 import os, io, csv, datetime, itertools
