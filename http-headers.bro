@@ -1,6 +1,7 @@
 module HTTP;
 
 # Original version credit to Mike Sconzo modified from https://github.com/ClickSecurity/data_hacking/blob/master/browser_fingerprinting/bro_scripts/http-headers.bro
+# Modified to also keep track of the Bro session ID for easy cross reference of suspicious entries with other Bro logs
 
 export {
     type header_info_record: record
