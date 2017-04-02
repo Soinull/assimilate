@@ -1,3 +1,10 @@
+# 
+# Assimilate_utils.py
+# Modifications Copyright 2017 Tim Crothers
+# Credit for the excellent BroLogReader code is to Mike Sconzo - https://github.com/ClickSecurity/data_hacking/blob/master/browser_fingerprinting/bro_log_reader.py
+#
+
+
 class BroLogReader():
     ''' This class implements a python based Bro Log Reader. '''
 
