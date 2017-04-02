@@ -1,4 +1,5 @@
 # Example script to iterate over pcap files to get corresponding http.log and httpheader.log files
+# designed to be run from a subdirectory of a folder containing .pcap files to build Bro HTTP and HTTP_Headers from
 for file in ../*.pcap
 do
 	name=${file##*/}
