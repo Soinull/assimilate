@@ -5,7 +5,7 @@ Assimilate is a series of python scripts for using the Naïve Bayes algorithm to
 
 **Assimilate-assess.py** will load the created model and process either a single bro_http_header file or a directory of them and call out suspicious log entries for further analysis.
 
-**Assimilate_utils.py** contains a modified version of BroLogReader originally written by Mike Sconzo.  The original source for BroLogReader can be found at [github.com/ClickSecurity/data_hacking](github.com/ClickSecurity/data_hacking) and all credit to Mike for the excellent Bro log parser code.
+**Assimilate_utils.py** contains a modified version of BroLogReader originally written by Mike Sconzo.  The original source for BroLogReader can be found at [https://github.com/ClickSecurity/data_hacking](https://github.com/ClickSecurity/data_hacking) and all credit to Mike for the excellent Bro log parser code.
 
 **Http-headers.bro** is a Bro module that will extract a single string http header from HTTP sessions using Bro.  Again the original code is credit to Mike Sconzo and be found at the same link just above along with several other excellent bro scripts.  This version has been modified to also keep track of Bro's unique session identifier so that any suspicious records found can easily be cross-referenced to the rest of the Bro data on the suspect sessions.
 
