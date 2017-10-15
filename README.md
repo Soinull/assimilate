@@ -1,7 +1,7 @@
 # Assimilate
-Assimilate is a series of python scripts for using the Naïve Bayes algorithm to find potential malicious activity in HTTP headers.  Assimilate is designed as a cyber hunting tool to augment human cyber hunting efforts.
+Assimilate is a series of python scripts for using the NaÃ¯ve Bayes algorithm to find potential malicious activity in HTTP headers.  Assimilate is designed as a cyber hunting tool to augment human cyber hunting efforts.
 
-**Assimilate-train.py** will ingest malicious and non-malicious bro_http_header logs and use the Naïve Bayes algorithm to build a model to find potentially malicious HTTP traffic from subsequent bto_http_header logs.
+**Assimilate-train.py** will ingest malicious and non-malicious bro_http_header logs and use the NaÃ¯ve Bayes algorithm to build a model to find potentially malicious HTTP traffic from subsequent bro_http_header logs.
 
 **Assimilate-assess.py** will load the created model and process either a single bro_http_header file or a directory of them and call out suspicious log entries for further analysis.
 
